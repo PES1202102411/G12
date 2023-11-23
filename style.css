@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8eff1; /* Light blue background for a fresh look */
+    color: #5c5c5c; /* Slightly lighter text color for better readability */
+    line-height: 1.6;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  th, td {
+    border: 1px solid black; /* This sets the border color and width */
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left; /* Adjust text alignment as needed */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* This sets a background color for the header */
+    color: black; /* This sets the text color for the header */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow to the container */
+    border-radius: 8px; /* Rounded corners for the container */
+  }
+  
+  .header {
+    background: #6c7ae0; /* A vibrant purple header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 8px; /* Rounded corners for the header */
+    border-top-right-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6c7ae0; /* The vibrant purple for labels as well */
+  }
+  
+  .form-group input[type='text'],
+  .form-group input[type='email'],
+  .form-group input[type='date'],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6c7ae0; /* Vibrant purple border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    transition: border-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .form-group input[type='text']:focus,
+  .form-group input[type='email']:focus,
+  .form-group input[type='date']:focus,
+  .form-group select:focus {
+    border-color: #5c5c5c; /* Darken the border a bit when input is focused */
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background: #f76b8a; /* A bright, warm pink for the button */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .btn:hover {
+    background: #fc5185; /* A slightly lighter pink for the hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
